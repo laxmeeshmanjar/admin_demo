@@ -65,7 +65,7 @@ const Home = () => {
       <Grid container spacing={2}>
         <Grid item xs={12}  >
         <div style={{background:'white'}}>
-          <Item><h1>  Bar Graph</h1></Item>
+          <Item><h1> Applications Bar Graph</h1></Item>
           <BarChart width={1400} height={250} data={applications}>
   <CartesianGrid strokeDasharray="3 3" />
   <XAxis dataKey="name" />
@@ -78,7 +78,7 @@ const Home = () => {
         </Grid>
         <Grid item xs={12} >
             <div style={{background:'white'}}>
-          <Item><h1>  Pie Chart</h1></Item>
+          <Item><h1> Resources Pie Chart</h1></Item>
           <PieChart width={1400} height={250}>
   {/* <Pie data={resources} dataKey="value" nameKey="name" cx="50%" cy="50%" outerRadius={50} fill="#8884d8" /> */}
   <Pie data={resources} dataKey="value" nameKey="name" cx="50%" cy="50%" innerRadius={60} outerRadius={80} fill="#82ca9d" label />
